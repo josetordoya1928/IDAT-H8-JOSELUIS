@@ -155,3 +155,16 @@
 
 //14.	Realice un algoritmo para determinar si una persona puede votar con base en su edad en las próximas elecciones.
 
+function vote(age){
+  if (age < 18){
+    console.log("Usted no puede votar");
+  } else if ( age < 71) {
+    console.log("Usted debe votar");
+  } else {
+    console.log("Usted no necesita votar");
+  }
+}
+
+vote(14);
+vote(20);
+vote(71);
